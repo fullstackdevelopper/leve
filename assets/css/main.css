@@ -508,7 +508,7 @@ section,
   position: relative;
 }
 
-.section-title h2 {
+.section-title h3 {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -516,7 +516,7 @@ section,
   position: relative;
 }
 
-.section-title h2:after {
+.section-title h3:after {
   content: "";
   position: absolute;
   display: block;
@@ -1190,7 +1190,7 @@ section,
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.portfolio-details .portfolio-description h3 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
