@@ -43,7 +43,7 @@ export default function About() {
                     </div>
                     <div className="img mt-lg-5">
                         <Image
-                            src="/img/33.jpg"
+                            src="/img/335.jpeg"
                             alt=""
                             className="img-fluid"
                             width={1000}
@@ -59,8 +59,8 @@ export default function About() {
                             La marque m&egrave;re incarne l'autorit&eacute; strat&eacute;gique
                             et la coh&eacute;rence globale, tandis que chaque filiale dispose
                             d'une identit&eacute; autonome dans un cadre structur&eacute;
-                            commun. Un mod&egrave; con&ccedil;u pour allier coh&eacute;rence,
-                            sp&eacute;cialisation et scalabilit&eacute;
+                            commun. Un mod&egrave;le con&ccedil;u pour allier coh&eacute;rence,
+                            sp&eacute;cialisation et scalabilit&eacute;.
                         </p>
                     </div>
                 </div>

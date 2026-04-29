@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Carriere from "@/app/contact/page"
 
 export default function Header() {
     return (
@@ -35,17 +36,20 @@ export default function Header() {
                 <nav id="navmenu" className="navmenu">
                     <ul>
                         <li>
-                            <a href="#hero" className="active"
-                            ><i className="bi bi-house navicon"></i>Acceuil</a>
+                            <Link href="/" className="active"
+                            ><i className="bi bi-house navicon"></i>Acceuil
+                            </Link>
                         </li>
                         <li>
-                            <a href="#about"
-                            ><i className="bi bi-info-circle me-2"></i> &Agrave; propos</a>
+                            <Link href="/#about"
+                            ><i className="bi bi-info-circle me-2"></i> &Agrave; propos
+                            </Link>
                         </li>
 
                         <li>
-                            <a href="#portfolio"
-                            ><i className="bi bi-card-list me-2"></i>R&eacute;sum&eacute;</a>
+                            <Link href="/#portfolio"
+                            ><i className="bi bi-card-list me-2"></i>R&eacute;sum&eacute;
+                            </Link>
                         </li>
 
                         <li>
@@ -55,8 +59,9 @@ export default function Header() {
                         </li>
 
                         <li>
-                            <a href="#contact"
-                            ><i className="bi bi-envelope navicon"></i> Contact</a>
+                            <Link href="/contact"
+                            ><i className="bi bi-envelope navicon"></i> Contact
+                            </Link>
                         </li>
                     </ul>
                 </nav>

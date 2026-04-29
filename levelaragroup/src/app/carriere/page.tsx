@@ -1,7 +1,5 @@
-export default function Carriere(){
-    return(
-        <>
-            <h1>Bienvenue dans Carriere</h1>
-        </>
+export default function Carriere() {
+    return (
+        <h1>Page bient&ocirc;t disponible !</h1>
     )
 }
